@@ -20,3 +20,11 @@ function test(){
 
 
 }
+
+
+
+$(document).ready(function () {
+    var myDiv = $(".scrolling-wrapper");
+    var scrollto = myDiv.offset().left + (myDiv.width() / 2);
+    myDiv.animate({ scrollTop:  scrollto});
+});
