@@ -58,10 +58,10 @@
 
 
 <!-- VULCANA 3 -->
-<div class="slide-container">
-    <div class="slide-item" id="card-gary" style="background-image: url('./img/gary-bendig-169660-unsplash.jpg')">
+<div class="scrolling-wrapper">
+    <div class="card" id="card-gary" style="background-image: url('./img/gary-bendig-169660-unsplash.jpg')">
     </div>
-    <div class="slide-item" id="card-sam" style="background-image: url('./img/sam-carter-191161-unsplash.jpg')">
+    <div class="card" id="card-sam" style="background-image: url('./img/sam-carter-191161-unsplash.jpg')">
     </div>
 </div>
 

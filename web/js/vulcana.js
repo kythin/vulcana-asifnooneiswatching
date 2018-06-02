@@ -14,7 +14,7 @@ function isInViewport(element){
 
 function test(){
 
-    var items = document.querySelectorAll('.slide-item');
+    var items = document.querySelectorAll('.card');
     Array.prototype.forEach.call(items, function(elements, index) {
         console.log(elements.id, isInViewport(elements));
     });
