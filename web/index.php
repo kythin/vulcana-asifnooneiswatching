@@ -38,7 +38,7 @@
 
 <body>
 
-<button onclick="test()">Check</button>
+<button onclick="test()" style="display: block; position:fixed; top:10px; right:10px; z-index: 9999;">Check</button>
 
 <!-- VULCANA 1 -->
 <div class="scrolling-wrapper">
