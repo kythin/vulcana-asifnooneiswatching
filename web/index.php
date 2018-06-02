@@ -11,6 +11,7 @@
             src="https://code.jquery.com/jquery-1.12.4.min.js"
             integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
             crossorigin="anonymous"></script>
+    <script src="js/percView.jquery.js"></script>
 
 
     <!-- Custom styles for this template -->
@@ -38,7 +39,7 @@
 
 <body>
 
-<button onclick="test()" style="display: block; position:fixed; top:10px; right:10px; z-index: 9999;">Check</button>
+<div id="debug"></div>
 
 <!-- VULCANA 1 -->
 <div class="scrolling-wrapper">

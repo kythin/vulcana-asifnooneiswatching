@@ -5,7 +5,6 @@ function isInViewport(element){
         && element.offsetLeft<window.innerWidth){
         return true;
     } else {
-
         return false;
     }
 }
@@ -15,8 +14,8 @@ function isInViewport(element){
 function test(){
 
     var items = document.querySelectorAll('.card');
-    Array.prototype.forEach.call(items, function(elements, index) {
-        console.log(elements.id, isInViewport(elements));
+    Array.prototype.forEach.call(items, function(element, index) {
+        if (isInViewport(element)) console.log(element.id, isInViewport(element));
     });
 
 
