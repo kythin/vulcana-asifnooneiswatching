@@ -24,6 +24,8 @@
             hiddenBefore = docScroll - divPosition,
             hiddenAfter = (divPosition + divHeight) - (docScroll + windowHeight);
 
+        //TODO: This maths only covers horizontal %, which is why all slides on the same level are 100% at the same time.
+
         if ((docScroll > divPosition + divHeight) || (divPosition > docScroll + windowHeight)) {
             return 0;
         } else {

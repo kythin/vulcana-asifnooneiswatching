@@ -43,26 +43,26 @@
 
 <!-- VULCANA 1 -->
 <div class="scrolling-wrapper">
-    <div class="card" id="card-harm" style="background-image: url('./img/harm-weustink-247501-unsplash.jpg')">
+    <div class="card" id="owl" style="background-image: url('./img/harm-weustink-247501-unsplash.jpg')">
     </div>
-    <div class="card" id="card-jack" style="background-image: url('./img/jack-finnigan-545944-unsplash.jpg')">
+    <div class="card" id="horse" style="background-image: url('./img/jack-finnigan-545944-unsplash.jpg')">
     </div>
 </div>
 
 <!-- VULCANA 2 -->
 <div class="scrolling-wrapper">
-    <div class="card" id="card-vita" style="background-image: url('./img/vita-vilcina-274039-unsplash.jpg')">
+    <div class="card" id="koala" style="background-image: url('./img/vita-vilcina-274039-unsplash.jpg')">
     </div>
-    <div class="card" id="card-david" style="background-image: url('./img/david-clode-363878-unsplash.jpg')">
+    <div class="card" id="parrot" style="background-image: url('./img/david-clode-363878-unsplash.jpg')">
     </div>
 </div>
 
 
 <!-- VULCANA 3 -->
 <div class="scrolling-wrapper">
-    <div class="card" id="card-gary" style="background-image: url('./img/gary-bendig-169660-unsplash.jpg')">
+    <div class="card" id="rabbit" style="background-image: url('./img/gary-bendig-169660-unsplash.jpg')">
     </div>
-    <div class="card" id="card-sam" style="background-image: url('./img/sam-carter-191161-unsplash.jpg')">
+    <div class="card" id="sheep" style="background-image: url('./img/sam-carter-191161-unsplash.jpg')">
     </div>
 </div>
 
