@@ -38,30 +38,30 @@
 
 <body>
 
-<button onclick="test()" style="position:fixed; z-index:9999; top:0px; right:0px;">Check</button>
+<button onclick="test()">Check</button>
 
 <!-- VULCANA 1 -->
 <div class="scrolling-wrapper">
-    <div class="card" style="background-image: url('./img/harm-weustink-247501-unsplash.jpg')">
+    <div class="card" id="card-harm" style="background-image: url('./img/harm-weustink-247501-unsplash.jpg')">
     </div>
-    <div class="card" style="background-image: url('./img/jack-finnigan-545944-unsplash.jpg')">
+    <div class="card" id="card-jack" style="background-image: url('./img/jack-finnigan-545944-unsplash.jpg')">
     </div>
 </div>
 
 <!-- VULCANA 2 -->
 <div class="scrolling-wrapper">
-    <div class="card" style="background-image: url('./img/vita-vilcina-274039-unsplash.jpg')">
+    <div class="card" id="card-vita" style="background-image: url('./img/vita-vilcina-274039-unsplash.jpg')">
     </div>
-    <div class="card" style="background-image: url('./img/david-clode-363878-unsplash.jpg')">
+    <div class="card" id="card-david" style="background-image: url('./img/david-clode-363878-unsplash.jpg')">
     </div>
 </div>
 
 
 <!-- VULCANA 3 -->
 <div class="slide-container">
-    <div class="slide-item" style="background-image: url('./img/gary-bendig-169660-unsplash.jpg')">
+    <div class="slide-item" id="card-gary" style="background-image: url('./img/gary-bendig-169660-unsplash.jpg')">
     </div>
-    <div class="slide-item" style="background-image: url('./img/sam-carter-191161-unsplash.jpg')">
+    <div class="slide-item" id="card-sam" style="background-image: url('./img/sam-carter-191161-unsplash.jpg')">
     </div>
 </div>
 

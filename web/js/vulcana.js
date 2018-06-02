@@ -13,5 +13,12 @@ function isInViewport(element){
 
 
 function test(){
-    alert(isInViewport(document.getElementById("elem"))?"Yes":"No");
+
+    var items = document.querySelectorAll('.slide-item');
+    Array.prototype.forEach.call(items, function(elements, index) {
+        console.log(elements, isInViewport(elements);
+
+    });
+
+
 }
