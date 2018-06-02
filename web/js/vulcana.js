@@ -16,8 +16,7 @@ function test(){
 
     var items = document.querySelectorAll('.slide-item');
     Array.prototype.forEach.call(items, function(elements, index) {
-        console.log(elements, isInViewport(elements));
-
+        console.log(elements.id, isInViewport(elements));
     });
 
 
