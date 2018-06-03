@@ -27,10 +27,16 @@ $(document).ready(function () {
 
     $('.scrolling-wrapper').each(function () {
         var div$ = $(this);
-        var scrollto = div$.offset().left - (div$.width() / 2);
-        div$.animate({ scrollTop:  scrollto});
 
-        console.log(scrollto);
+        console.log('width', div$.scrollWidth);
+
+        var scrollto = (div$.scrollWidth / 2);
+        div$.animate({ scrollLeft:  scrollto});
+
+        //var scrollto = div$.offset().left - (div$.scrollWidth / 2);
+        //div$.animate({ scrollLeft:  scrollto});
+
+        //console.log(scrollto);
 
     });
 
