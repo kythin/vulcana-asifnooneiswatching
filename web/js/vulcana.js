@@ -30,6 +30,8 @@ $(document).ready(function () {
         var scrollto = div$.offset().left - (div$.width() / 2);
         div$.animate({ scrollTop:  scrollto});
 
+        console.log(scrollto);
+
     });
 
 });
