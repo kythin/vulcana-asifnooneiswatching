@@ -36,7 +36,6 @@ $(document).ready(function () {
 
         //var scrollto = div$.offset().left - (div$.scrollWidth / 2);
         //div$.animate({ scrollLeft:  scrollto});
-
         //console.log(scrollto);
 
     });
