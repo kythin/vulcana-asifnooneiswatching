@@ -24,7 +24,12 @@ function test(){
 
 
 $(document).ready(function () {
-    var myDiv = $(".scrolling-wrapper");
-    var scrollto = myDiv.offset().left - (myDiv.width() / 2);
-    myDiv.animate({ scrollTop:  scrollto});
+
+    $('.scrolling-wrapper').each(function () {
+        var div$ = $(this);
+        var scrollto = div$.offset().left - (div$.width() / 2);
+        div$.animate({ scrollTop:  scrollto});
+
+    });
+
 });
