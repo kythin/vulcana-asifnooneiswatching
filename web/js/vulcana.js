@@ -28,9 +28,9 @@ $(document).ready(function () {
     $('.scrolling-wrapper').each(function () {
         var div$ = $(this);
 
-        console.log('width', div$.scrollWidth);
+        console.log('width', div$[0].scrollWidth);
 
-        var scrollto = (div$.scrollWidth / 2);
+        var scrollto = (div$[0].scrollWidth / 2);
         div$.animate({ scrollLeft:  scrollto});
 
         //var scrollto = div$.offset().left - (div$.scrollWidth / 2);
