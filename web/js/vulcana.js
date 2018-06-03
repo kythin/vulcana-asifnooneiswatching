@@ -33,7 +33,6 @@ $(document).ready(function () {
         var scrollto = (div$[0].scrollWidth / 4); // /2 gets ut to the second slide immediately but we don't want that.
 
         div$.animate({ scrollLeft:  scrollto});
-
         //var scrollto = div$.offset().left - (div$.scrollWidth / 2);
         //div$.animate({ scrollLeft:  scrollto});
         //console.log(scrollto);
