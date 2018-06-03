@@ -30,7 +30,8 @@ $(document).ready(function () {
 
         console.log('width', div$[0].scrollWidth);
 
-        var scrollto = (div$[0].scrollWidth / 2);
+        var scrollto = (div$[0].scrollWidth / 4); // /2 gets ut to the second slide immediately but we don't want that.
+
         div$.animate({ scrollLeft:  scrollto});
 
         //var scrollto = div$.offset().left - (div$.scrollWidth / 2);
